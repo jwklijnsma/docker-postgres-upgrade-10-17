@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM postgres:17-bookworm
+FROM postgres:18-bookworm
 
 RUN sed -i 's/$/ 10/' /etc/apt/sources.list.d/pgdg.list
 
